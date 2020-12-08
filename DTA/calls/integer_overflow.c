@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include<stdbool.h>
 
-int makeTainted(char * taintedVar) {
+int makeTainted(char * tainted_var) {
 
 }
 
-int makeCondTainted(char * taintedVar, char * taintCond) {
+int makeCondTainted(char * tainted_var, char * taint_cond) {
 
 }
 
@@ -14,11 +14,11 @@ char * array(char * taintCond) {
 
 }
 
-bool isTainted(char * taintedVar) {
+bool isTainted(char * tainted_var) {
 
 }
 
-bool isIoF(char * taintedVar) {
+bool isIoF(char * tainted_var) {
 
 }
 
