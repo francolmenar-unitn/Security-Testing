@@ -20,6 +20,8 @@ int main() {
         return -1;
     }
 
+    int price = 1000 * item_quantity;
+
     int insurance = 1200;
     if (item_choice == 3) {
         int price = 1500 * item_quantity + insurance;
@@ -34,7 +36,6 @@ int main() {
             printf("You can buy maximum 3\n");
             return -1;
         }
-        int price = 1000 * item_quantity;
         printf("You have to pay €%d\n", price);
     }
     return 0;
